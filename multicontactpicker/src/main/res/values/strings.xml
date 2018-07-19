@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Snapgroup</string>
+    <string name="picker_title"></string>
+    <string name="tv_select_btn_text_disabled">Invite</string>
+    <string name="tv_select_btn_text_enabled">Invite(%1$s)</string>
+    <string name="tv_select_all_btn_text">Select All</string>
+    <string name="tv_unselect_all_btn_text">Un-select All</string>
+    <string name="search">Search</string>
+</resources>

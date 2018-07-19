@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Snapgroup</string>
+    <string name="picker_title"></string>
+    <string name="tv_select_btn_text_disabled">הזמן</string>
+    <string name="tv_select_btn_text_enabled">הזמן(%1$s)</string>
+    <string name="tv_select_all_btn_text">בחר הכל</string>
+    <string name="tv_unselect_all_btn_text">בטל בחירה בכל</string>
+    <string name="search">חפש</string>
+
+</resources>

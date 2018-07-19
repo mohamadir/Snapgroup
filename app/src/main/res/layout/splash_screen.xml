@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.snapgroup2.Activities.SplashScreenActivity">
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:id="@+id/button5"
+        android:layout_width="199dp"
+        android:layout_height="121dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/splash_logo"
+        android:text=""
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:id="@+id/progress_container"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/connecting_progress_bar"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:text="Connecting.."
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/network_error_container"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:alpha="0.3"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/refresh_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Lets try ag"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

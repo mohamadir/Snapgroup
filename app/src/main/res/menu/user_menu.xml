@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    android:textDirection="anyRtl"
+
+    >
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/option_menu_dots"
+        android:title=""
+        android:visible="true"
+        android:layout_gravity="start"
+        android:textDirection="anyRtl"
+        android:layoutDirection="rtl"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:layoutDirection="rtl"
+                android:layout_gravity="start"
+                android:id="@+id/my_profile_drawer_item"
+                android:icon="@drawable/user_default_image"
+                android:textDirection="anyRtl"
+                
+                app:showAsAction="always|withText"
+                android:title="" />
+
+
+
+
+
+
+            <item
+                android:id="@+id/settings_item"
+                android:icon="@drawable/settings_ic"
+                android:title="Settigns"
+                android:layoutDirection="rtl"
+                android:layout_gravity="right"
+                app:showAsAction="always|withText" />
+
+            <item
+                android:id="@+id/privacy_item"
+                android:icon="@drawable/ic_privacyicon"
+                android:title="Privacy"
+                android:layoutDirection="rtl"
+                android:layout_gravity="right"
+                app:showAsAction="always|withText" />
+
+            <item
+                android:id="@+id/create_group"
+                android:icon="@drawable/create_group"
+                android:title="Create Group"
+                android:layoutDirection="rtl"
+                android:visible="true"
+                android:layout_gravity="right"
+                app:showAsAction="always|withText" />
+
+            <item
+                android:id="@+id/help_center"
+                android:icon="@drawable/help_ic"
+                android:title="Help"
+                android:layoutDirection="rtl"
+                android:visible="true"
+                android:layout_gravity="right"
+                app:showAsAction="always|withText" />
+
+
+
+
+        </menu>
+    </item>
+</menu>
+
